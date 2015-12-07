@@ -21,15 +21,7 @@ char KthIndexFromEnd(char *str, int K) {
 	if (!str)
 		return '\0';
 	if (K < 0)
-		return '\0';
-/*	int i = 0;
-	while (str[K] != '\0'){
-		K++;
-		i++;
-	}
-	return str[i - 1];
-	return '\0';
-*/	
+		return '\0';	
 	int len = getLen(str);
 	if (len == 0){
 		return '\0';
